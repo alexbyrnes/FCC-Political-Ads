@@ -1,0 +1,115 @@
+table	column	type	length
+contract	id	text	100
+contract	product	text	255
+contract	advertiser	text	255
+contract	advertiser_address_name	text	255
+contract	advertiser_address	text	1000
+contract	station_address	text	1000
+contract	contract_from	date	
+contract	contract_to	date	
+contract	estimate_no	text	100
+contract	billing_cycle	text	100
+contract	station	text	100
+contract	special_handling	text	255
+contract	demographic	text	255
+contract	idb_no	text	100
+contract	agency_ref	text	255
+contract	contract_revision	text	100
+contract	billing_calendar	text	100
+contract	account_executive	text	255
+contract	advertiser_code	text	100
+contract	print_date	date	
+contract	original_date	date	
+contract	revision_date	date	
+contract	alt_order_no	text	100
+contract	advertiser_ref	text	255
+contract	cash_trade	text	100
+contract	sales_office	text	255
+contract	product_code	text	1000
+contract	page	integer	
+contract	total_pages	integer	
+contract	advertiser_address_entity	text	1000
+contract	advertiser_original	text	255
+contract	product_original	text	255
+invoice	id	text	100
+invoice	product	text	255
+invoice	advertiser	text	255
+invoice	advertiser_address_name	text	255
+invoice	advertiser_address	text	1000
+invoice	account_executive	text	255
+invoice	advertiser_code	text	100
+invoice	alt_order_no	text	100
+invoice	billing_calendar	text	100
+invoice	billing_type	text	100
+invoice	estimate_no	text	100
+invoice	flight_from	date	
+invoice	flight_to	date	
+invoice	invoice_date	date	
+invoice	invoice_month	text	100
+invoice	invoice_no	text	100
+invoice	invoice_from	date	
+invoice	invoice_to	date	
+invoice	order_no	text	100
+invoice	page	integer	
+invoice	total_pages	integer	
+invoice	product_code	text	1000
+invoice	sales_office	text	255
+invoice	sales_region	text	100
+invoice	send_payment_to	text	1000
+invoice	station_address	text	1000
+invoice	station	text	100
+invoice	deal_no	text	100
+invoice	special_handling	text	1000
+invoice	idb_no	text	100
+invoice	agency_ref	text	255
+invoice	advertiser_ref	text	255
+invoice	product_original	text	255
+invoice	advertiser_original	text	255
+invoice	advertiser_address_entity	text	1000
+orders	id	text	100
+orders	product_desc	text	1000
+orders	advertiser	text	255
+orders	agency_name	text	255
+orders	order_revision	text	100
+orders	alt_order_no	text	100
+orders	estimate	text	100
+orders	flight_from	date	
+orders	flight_to	date	
+orders	original_date	date	
+orders	revision_date	date	
+orders	order_type	text	100
+orders	buying_contact	text	255
+orders	billing_contact	text	1000
+orders	demographic	text	100
+orders	product_codes	text	255
+orders	priority	text	100
+orders	revenue_codes	text	255
+orders	primary_ae	text	255
+orders	sales_office	text	255
+orders	sales_region	text	100
+orders	billing_type	text	100
+orders	billing_calendar	text	100
+orders	billing_cycle	text	25
+orders	agency_commission	text	100
+orders	new_business_through	text	255
+orders	order_separation	text	100
+orders	advertiser_external_id	text	100
+orders	agency_external_id	text	100
+orders	page	integer	
+orders	total_pages	integer	
+orders	product_desc_original	text	255
+orders	advertiser_original	text	255
+polfile	id	text	800
+polfile	stationid	integer	
+polfile	station	text	100
+polfile	year	character	4
+polfile	office	text	100
+polfile	type	text	100
+polfile	updated	timestamp	
+polfile	url	text	1024
+polfile	doctype	text	1
+polfile	docformat	text	255
+station	station	text	10
+station	timestamp	
+station	state	text	2
+
